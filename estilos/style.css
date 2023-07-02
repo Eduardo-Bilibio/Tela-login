@@ -91,11 +91,10 @@ form > div.form > input {
     background-color: rgba(127, 255, 212, 0.623);
     height: 100%;
     border-radius: 8px;
-    width: calc(100% - 44px);
+    width: calc(100% - 20px);
     padding: 4px;
     border: 0;
     transform: translateY(-1px);
-    transform: translateX(20px);
 }
 
 form > div.form {
