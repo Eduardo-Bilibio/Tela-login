@@ -83,7 +83,7 @@ div.form > label {
 
 form > div.form > i {
     color: white;
-    font-size: 2em;
+    font-size: 1em;
     width: 40px;
     padding: 5px;
 }
@@ -93,9 +93,8 @@ form > div.form > input {
     height: 100%;
     border-radius: 8px;
     width: calc(100% - 44px);
-    transform: translateY(-10px);
+    transform: translateY(-1px);
     padding: 4px;
-    font-size: 20px;
 }
 
 form > div.form {
