@@ -88,6 +88,7 @@ form > div.form > i {
 
 form > div.form > input {
     font-size: 1em;
+    position: absolute;
     background-color: rgba(127, 255, 212, 0.623);
     height: 100%;
     border-radius: 8px;
