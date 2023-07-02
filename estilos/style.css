@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+* {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    /*
+    da um bug sinistro se não colocar border-box, lembre de colocar
+    */
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkslategrey;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.856);
+}
+
+section#login > div#imagem {
+    display: block;
+    background-image: url("../imagens/pexels-dids-3530053.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 150px;
+}
+
+section#login > div#formu12  {
+    display: block;
+    padding: 10px;
+}
+
+input#enviar {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    font-size: 20px;
+    background-color: rgba(18, 146, 103, 0.527);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: none;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+div.esqueci {
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgba(35, 207, 150, 0.527);
+    border-radius: 15px;
+    display: block;
+}
+
+div.esqueci > a{
+    font-size: 19px;
+    color: rgb(87, 78, 78);
+    text-decoration: none;
+}
+
+div.form > label {
+    display: none;
+}
+
+form > div.form > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+form > div.form > input {
+    background-color: rgba(127, 255, 212, 0.623);
+    height: 100%;
+    border-radius: 8px;
+    width: calc(100% - 44px);
+    transform: translateY(-10px);
+    padding: 4px;
+    font-size: 20px;
+}
+
+form > div.form {
+    background-color: rgb(74, 12, 133);
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+input.caixa {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.034);
+}
+
+h1, p{
+    margin-bottom: 5px;
+}
+h1 {
+    text-align: center;
+}
+
+div.form > input:focus{
+    background-color: white;
+}
