@@ -94,6 +94,8 @@ form > div.form > input {
     width: calc(100% - 20px);
     padding: 4px;
     border: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 form > div.form {
