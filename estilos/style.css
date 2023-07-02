@@ -89,11 +89,13 @@ form > div.form > i {
 }
 
 form > div.form > input {
+    font-size: 1em;
     background-color: rgba(127, 255, 212, 0.623);
     height: 100%;
     border-radius: 8px;
     width: calc(100% - 44px);
     padding: 4px;
+    border: 0;
     transform: translateY(-1px);
 }
 
