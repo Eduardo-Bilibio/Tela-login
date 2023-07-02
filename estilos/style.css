@@ -118,6 +118,7 @@ h1 {
     text-align: center;
 }
 
-div.form > input:focus{
+div.form > input:focus-within{
     background-color: white;
+    border: none;
 }
